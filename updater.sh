@@ -8,6 +8,8 @@ function updater(){
 
 function install() {
 
+    sudo apt install leafpad -y
+
 }
 
 
