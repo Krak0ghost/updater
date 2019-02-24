@@ -14,6 +14,8 @@ function install() {
     sudo apt install nmap -y
     sudo apt install aircrack-ng -y
     sudo apt install ifupdown -y
+    sudo apt install gnome-tweak-tool -y
+
 }
 
 function snap_install() {
