@@ -13,7 +13,7 @@ function install() {
     sudo apt install keepass2 -y
     sudo apt install nmap -y
     sudo apt install aircrack-ng -y
-
+    sudo apt install ifupdown -y
 }
 
 function install_msf() {
