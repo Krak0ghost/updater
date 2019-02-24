@@ -6,6 +6,13 @@ function updater(){
 
 }
 
-function install () {
+function install() {
 
 }
+
+
+
+function main() {
+
+}
+main
