@@ -73,6 +73,7 @@ function main() {
   install
   install_msf
   install_docker
+  reboot_system
 
 }
 main
