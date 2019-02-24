@@ -24,6 +24,12 @@ function install_msf() {
 
 }
 
+function install_docker() {
+
+  
+
+}
+
 
 function main() {
 
