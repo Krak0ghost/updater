@@ -15,6 +15,7 @@ function install() {
     sudo apt install aircrack-ng -y
     sudo apt install ifupdown -y
     sudo apt install gnome-tweak-tool -y
+    sudo apt install lua5.3 -y
 
 }
 
