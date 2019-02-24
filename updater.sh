@@ -26,7 +26,14 @@ function install_msf() {
 
 function install_docker() {
 
-  
+  sudo apt-get update
+
+  sudo apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg-agent \
+    software-properties-common
 
 }
 
