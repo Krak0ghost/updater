@@ -63,5 +63,7 @@ function install_docker() {
 
 function main() {
 
+  updater
+
 }
 main
