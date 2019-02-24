@@ -16,6 +16,12 @@ function install() {
     sudo apt install ifupdown -y
 }
 
+function snap_install() {
+
+  snap install atom --classic
+
+}
+
 function install_msf() {
 
   curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && \
