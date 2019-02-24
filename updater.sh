@@ -12,7 +12,7 @@ function install() {
     sudo apt install net-tools -y
     sudo apt install keepass2 -y
     sudo apt install nmap -y
-
+    sudo apt install aircrack-ng -y
 
 }
 
