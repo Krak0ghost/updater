@@ -60,6 +60,12 @@ function install_docker() {
 
 }
 
+function reboot_system() {
+
+  reboot
+
+}
+
 
 function main() {
 
