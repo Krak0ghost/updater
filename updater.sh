@@ -9,6 +9,7 @@ function updater(){
 function install() {
 
     sudo apt install leafpad -y
+    sudo apt install net-tools -y
 
 }
 
