@@ -64,7 +64,8 @@ function install_docker() {
 function main() {
 
   updater
-  
+  install
+  install_msf
 
 }
 main
