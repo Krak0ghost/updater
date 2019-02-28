@@ -79,9 +79,9 @@ function wine_install() {
 
 }
 
-function reboot_system() {
+function rebooit_system() {
 
-  reboot now
+ sudo reboot now
 
 }
 
