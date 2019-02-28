@@ -61,6 +61,12 @@ function install_docker() {
 
 }
 
+function wine_install() {
+
+  
+
+}
+
 function reboot_system() {
 
   reboot now
