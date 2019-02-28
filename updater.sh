@@ -53,11 +53,11 @@ function install_docker() {
     sudo add-apt-repository \
    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
    $(lsb_release -cs) \
-   stable"
+   stable" -y
 
    sudo apt-get update
 
-   sudo apt-get install docker-ce docker-ce-cli containerd.io
+   sudo apt-get install docker-ce docker-ce-cli containerd.io -y
 
 }
 
@@ -69,9 +69,9 @@ function wine_install() {
   sudo dpkg --add-architecture i386
 
   wget -nc https://dl.winehq.org/wine-builds/winehq.key
-  sudo apt-key add winehq.key
+  sudo apt-key add winehq.key -y
 
-  sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ cosmic main'
+  sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ cosmic main' -y
 
   sudo apt update
 
