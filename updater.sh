@@ -63,7 +63,8 @@ function install_docker() {
 
 function wine_install() {
 
-  
+  sudo apt install q4wine -y
+  sudo apt install wine-stable -y
 
 }
 
