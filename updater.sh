@@ -73,6 +73,7 @@ function wine_install() {
 
   sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ cosmic main'
 
+  sudo apt update 
 
 }
 
