@@ -71,6 +71,9 @@ function wine_install() {
   wget -nc https://dl.winehq.org/wine-builds/winehq.key
   sudo apt-key add winehq.key
 
+  sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ cosmic main'
+
+
 }
 
 function reboot_system() {
