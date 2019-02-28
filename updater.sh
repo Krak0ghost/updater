@@ -66,6 +66,9 @@ function wine_install() {
   sudo apt install q4wine -y
   sudo apt install wine-stable -y
 
+  sudo dpkg --add-architecture i386
+
+
 }
 
 function reboot_system() {
