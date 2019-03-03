@@ -19,6 +19,7 @@ function install() {
     sudo apt install gnome-tweak-tool -y
     sudo apt install lua5.3 -y
     sudo apt install gparted -y
+    sudo apt install ssh -y
 
 }
 
