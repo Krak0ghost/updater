@@ -8,6 +8,8 @@ function updater(){
 
 function install() {
 
+
+
     sudo apt install leafpad -y
     sudo apt install net-tools -y
     sudo apt install keepass2 -y
@@ -23,7 +25,6 @@ function install() {
 function snap_install() {
 
   snap install atom --classic
-  snap install opera
 
 }
 
