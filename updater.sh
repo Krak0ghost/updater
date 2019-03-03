@@ -8,6 +8,8 @@ function updater(){
 
 function install() {
 
+
+
     sudo apt install leafpad -y
     sudo apt install net-tools -y
     sudo apt install keepass2 -y
@@ -23,7 +25,20 @@ function install() {
 function snap_install() {
 
   snap install atom --classic
-  snap install opera
+  snap install spotify
+
+}
+
+function lamp_install() {
+
+  sudo apt install apache2 -y
+  sudo apt install mysql-server -y
+  sudo apt install phpmyadmin -y
+  sudo apt install php -y
+
+  sudo touch /var/www/html/test.php
+  sudo chmod 777 /var/www/html/test.php
+  sudo echo '<?php echo "Hello World"; ?>' >> /var/www/html/test.php
 
 }
 
