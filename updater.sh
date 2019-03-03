@@ -25,7 +25,13 @@ function install() {
 function snap_install() {
 
   snap install atom --classic
-  snap install spotify 
+  snap install spotify
+
+}
+
+function lamp_install() {
+
+  
 
 }
 
