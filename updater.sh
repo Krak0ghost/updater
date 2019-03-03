@@ -36,6 +36,10 @@ function lamp_install() {
   sudo apt install phpmyadmin -y
   sudo apt install php -y
 
+  sudo touch /var/www/html/test.php
+  sudo chmod 777 /var/www/html/test.php
+  sudo echo '<?php echo "Hello World"; ?>' >> /var/www/html/test.php
+
 }
 
 function install_msf() {
