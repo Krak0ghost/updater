@@ -34,6 +34,7 @@ function lamp_install() {
   sudo apt install apache2 -y
   sudo apt install mysql-server -y
   sudo apt install phpmyadmin -y
+  sudo apt install php -y
 
 }
 
