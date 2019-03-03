@@ -43,6 +43,12 @@ function lamp_install() {
 
 }
 
+function ssh-key() {
+
+  ssh-keygen
+
+}
+
 function install_msf() {
 
   curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && \
@@ -106,6 +112,7 @@ function main() {
 
   updater
   install
+  ssh-key
   install_msf
   install_docker
   lamp_install
