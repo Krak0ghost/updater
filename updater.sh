@@ -19,6 +19,7 @@ function install() {
     sudo apt install gnome-tweak-tool -y
     sudo apt install lua5.3 -y
     sudo apt install gparted -y
+    sudo apt install ssh -y
 
 }
 
@@ -39,6 +40,12 @@ function lamp_install() {
   sudo touch /var/www/html/test.php
   sudo chmod 777 /var/www/html/test.php
   sudo echo '<?php echo "Hello World"; ?>' >> /var/www/html/test.php
+
+}
+
+function ssh-key() {
+
+  ssh-keygen
 
 }
 
@@ -105,6 +112,7 @@ function main() {
 
   updater
   install
+  ssh-key
   install_msf
   install_docker
   lamp_install
