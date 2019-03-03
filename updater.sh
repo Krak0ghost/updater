@@ -107,6 +107,7 @@ function main() {
   install
   install_msf
   install_docker
+  lamp_install
   reboot_system
 
 }
