@@ -32,6 +32,8 @@ function snap_install() {
 function lamp_install() {
 
   sudo apt install apache2 -y
+  sudo apt install mysql-server -y
+
 
 }
 
