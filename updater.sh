@@ -20,6 +20,7 @@ function install() {
     sudo apt install lua5.3 -y
     sudo apt install gparted -y
     sudo apt install ssh -y
+    sudo apt install gitk -y
 
 }
 
