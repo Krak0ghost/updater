@@ -115,6 +115,7 @@ function main() {
   ssh-key
   install_msf
   install_docker
+  wine_install
   lamp_install
   reboot_system
 
