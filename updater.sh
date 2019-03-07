@@ -81,6 +81,8 @@ function install_docker() {
 
    sudo apt-get install docker-ce docker-ce-cli containerd.io -y
 
+   sudo docker network create --subnet 10.10.0.0/16 --gateway 10.10.0.1 --ip-range=10.10.5.0/24 --driver=bridge bridge5
+
 }
 
 function wine_install() {
