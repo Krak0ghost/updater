@@ -61,12 +61,11 @@ function install_docker() {
 
   sudo apt-get update
 
-  sudo apt-get install \
-    apt-transport-https \
-    ca-certificates \
-    curl \
-    gnupg-agent \
-    software-properties-common
+    sudo apt install apt-transport-https -y
+    sudo apt install ca-certificates -y
+    sudo apt install curl -y
+    sudo apt install gnupg-agent -y
+    sudo apt install software-properties-common -y
 
     curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 
