@@ -93,7 +93,7 @@ function wine_install() {
   sudo dpkg --add-architecture i386
 
   wget -nc https://dl.winehq.org/wine-builds/winehq.key
-  sudo apt-key add winehq.key -y
+  sudo apt-key add winehq.key 
 
   sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ cosmic main' -y
 
